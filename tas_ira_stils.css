@@ -87,8 +87,24 @@ button:hover{
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-	background: url("img/water2.gif") center fixed;
-	background-size: 102%;
+	background-image: url("img/water2.gif"), url("img/steroids2.png"), url("img/flames.png");
+	background-repeat: repeat, repeat, no-repeat;
+	background-position:center, left, bottom;
+	background-size: 102%, 400px, cover;
+	background-blend-mode: color;
+	background-attachment: fixed, fixed, scroll;
+}
+
+#steroids_bg{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url("img/steroids2.png"), url("img/flames.png");
+	background-repeat: repeat, no-repeat;
+	background-position:left, bottom;
+	background-size: 400px, cover;
+	background-blend-mode:color;
+	background-attachment: fixed, scroll;
 }
 
 #bg4{
@@ -143,18 +159,6 @@ button:hover{
 	margin: auto;
 	overflow: visible;
 	animation: hue-shift 3s infinite;
-}
-
-#steroids_bg{
-	position:absolute;
-	width: 100%;
-	height: 100%;
-	background-image: url("img/steroids2.png"), url("img/flames.png");
-	background-repeat: repeat, no-repeat;
-	background-position:left, bottom;
-	background-size: 400px, cover;
-	background-blend-mode:color;
-	background-attachment: fixed, scroll;
 }
 
 #spotify{
