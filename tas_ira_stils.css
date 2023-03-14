@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 
 body{
 	padding: 0px;
@@ -14,11 +13,13 @@ h1{
 	text-align: center;
 	font-size: 64px;
 }
+
 h2{
 	color: #fff;
 	text-align: center;
 	font-size: 32px;
 }
+
 h3{
 	color: #000;
 	text-align: center;
@@ -53,6 +54,13 @@ button:hover{
     transition: all .4s ease-in-out;
 }
 
+.logo{
+	max-width: 300px;
+	height: 200px;
+	margin: 50px;
+	object-fit: contain;
+}
+
 .centrist{
 	position:relative;
 	top: 50%;
@@ -61,25 +69,25 @@ button:hover{
 	transform: translateY(-50%);
 }
 
-#bg1{
+#start{
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-	background: url("tile8.gif") center fixed;	
+	background: url("img/stars.gif") center fixed;	
 }
 
 #bg2{
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-	background: url("bg2.jpg") no-repeat center fixed;
+	background: url("img/leaves.jpg") no-repeat center fixed;
 }
 
 #bg3{
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-	background: url("tile5.gif") center fixed;
+	background: url("img/water2.gif") center fixed;
 	background-size: 102%;
 }
 
@@ -87,7 +95,7 @@ button:hover{
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-	background: url("tile2.gif") center fixed;
+	background: url("img/water1.gif") center fixed;
 	background-size: 102%;
 }
 
@@ -95,7 +103,7 @@ button:hover{
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-	background: url("bg5.jpg") no-repeat center fixed;
+	background: url("img/cobra.jpg") center fixed;
 	background-size: cover;
 }
 
@@ -103,7 +111,30 @@ button:hover{
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-	background: url("bg3.jpg") no-repeat center fixed;
+	background: url("img/alcohol.jpg") no-repeat center fixed;
+	background-position: top;
+	background-size: cover;
+}
+
+#end{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url("img/plants.jpg") center fixed;
+}
+
+#bg8{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url("img/ceo.jpeg") center fixed;
+	background-size: cover;
+}
+
+#contacts{
+	background-color: #fffffff0;
+	border-radius: 15px;
+	margin: 50px;
 }
 
 #steroids{
@@ -118,12 +149,12 @@ button:hover{
 	position:absolute;
 	width: 100%;
 	height: 100%;
-	background-image: url("steroids3.png"), url("flames.png");
+	background-image: url("img/steroids2.png"), url("img/flames.png");
 	background-repeat: repeat, no-repeat;
 	background-position:left, bottom;
 	background-size: 400px, cover;
 	background-blend-mode:color;
-	background-attachment: fixed, local;
+	background-attachment: fixed, scroll;
 }
 
 #spotify{
