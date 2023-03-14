@@ -8,20 +8,15 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-		<link rel="icon" type="image/x-icon" href="favicon.ico">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
 	</head>
 	<body>
-		<div id="bg1">
+		<div id="start">
 			<div class="centrist">
 				<h1>Welcome to <span style="color:lime"><b><i>Gaysex.cia.gov</i></b></span></h1>
 				<h2>Visited 2'867'675 times | Enjoy your stay!</h2>
-				<img src="Optics1.gif" alt="">
-				<img src="Optics2.gif" alt="">
-				<img src="Optics3.gif" alt="">
+				<img src="img/sticker1.gif" alt="">
+				<img src="img/sticker2.gif" alt="">
+				<img src="img/sticker3.gif" alt="">
 			</div>					
 		</div>
 		<div id="bg2">
@@ -30,14 +25,31 @@
 				<h2>As a result I think you should dismiss my ticket officer</h2>
 			</div>
 		</div>
+		<div id="bg8">
+			<div class="centrist">
+				<h1>Mūsu sadarbības partneri</h1>
+				<div>
+					<img class="logo" src="img/knab.png" alt="">
+					<img class="logo" src="img/vid.png" alt="">
+					<img class="logo" src="img/vp.png" alt="">
+					<img class="logo" src="img/maxima.png" alt="">
+				</div>		
+			</div>
+		</div>
 		<div id="bg3">
 			<div id="steroids_bg">
 				<div class="centrist">
 					<h1>Legalize anabolic steroids</h1>
-					<img id="steroids" src="steroids.png" alt="">
+					<img id="steroids" src="img/steroids1.png" alt="">
 					<div style="margin: 100px"><button><b>BUY NOW</b></button></div>
 				</div>
 			</div>		
+		</div>
+		<div id="bg6">
+			<div class="centrist">
+				<h1>Profesionāli ogas pišanas pakalpojumi</h1>
+				<h2>Sākot no 20 EUR/h</h2>
+			</div>
 		</div>
 		<div id="bg4">
 			<div class="centrist">
@@ -52,10 +64,10 @@
 				<h2>Visi mani džeki ienīst depozīta sistēmu</h2>
 			</div>
 		</div>
-		<div id="bg6">	
-			<div class="centrist" style="width: 100vh;">
+		<div id="end">	
+			<div class="centrist" style="max-width: 900px;">
 				<h1>Contact us</h1>
-				<div style="background-color: #fffffff0; border-radius: 15px;">
+				<div id="contacts">
 					<div>
 						<h3>+371 67356161</h3>
 						<h3>knab@knab.gov.lv</h3>
