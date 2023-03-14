@@ -3,10 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Gaysex.cia.gov</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="tas_ira_stils.css" rel="stylesheet" type="text/css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -17,9 +19,9 @@
 			<div class="centrist">
 				<h1>Welcome to <span style="color:lime"><b><i>Gaysex.cia.gov</i></b></span></h1>
 				<h2>Visited 2'867'675 times | Enjoy your stay!</h2>
-				<img src="Optics1.gif">
-				<img src="Optics2.gif">
-				<img src="Optics3.gif">
+				<img src="Optics1.gif" alt="">
+				<img src="Optics2.gif" alt="">
+				<img src="Optics3.gif" alt="">
 			</div>					
 		</div>
 		<div id="bg2">
@@ -32,7 +34,7 @@
 			<div id="steroids_bg">
 				<div class="centrist">
 					<h1>Legalize anabolic steroids</h1>
-					<img id="steroids" src="steroids.png">
+					<img id="steroids" src="steroids.png" alt="">
 					<div style="margin: 100px"><button><b>BUY NOW</b></button></div>
 				</div>
 			</div>		
